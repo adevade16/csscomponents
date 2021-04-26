@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>CSS Block</title>
+    <meta charset="utf-8">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="icon" href="favicon1.ico">
+
+    <!-- Google Fonts -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Ubuntu:wght@500&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head>
+
+<body>
+    <!-- Responsive Image -->
+    <img class="respimg" src="https://www.india.com/wp-content/uploads/2020/12/spiti-valley.jpg" alt="mountains"
+        width="600" height="400">
+
+    <!-- Nav Bar -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <div class="header">
+        <nav>
+            <ul>
+                <li class="logo"><i class="fas fa-palette"></i> CSS Blocks</li>
+                <li class="items"><a href="#">Home</a></li>
+                <li class="items"><a href="#">About Us</a></li>
+                <li class="items"><a href="#">Contact Us</a></li>
+                <li class="items"><a href="https://github.com/adevade16/componentlibrary"><i
+                            class="fab fa-github fa-2x"></i></a></li>
+                <li class="btn"><a href="#"><i class="fas fa-bars"></i></a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $('.btn').click(function () {
+                $('.items').toggleClass("show");
+                $('ul li').toggleClass("hide");
+            });
+        });
+    </script>
+
+
+    <!-- Rating -->
+    <div class="ratings">
+        <span class="rating">★</span>
+        <span class="rating">★</span>
+        <span class="rating">★</span>
+        <span class="rating">★</span>
+        <span class="rating">★</span>
+
+    </div>
+
+    <!-- Grid System -->
+    <div class="grid">
+        <div class="gcontent">Grid item1</div>
+        <div class="gcontent">Grid item2</div>
+        <div class="gcontent">Grid item3</div>
+
+    </div>
+
+    <!-- Avatar -->
+    <img class="avatar"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyuCwSGCSFDd2fiwEJIivTZMtyi_C-rJviL6eaNYj_D6JSCsqGeNKxGSikjn8QcPqPvWQ&usqp=CAU"
+        alt="Avatar">
+    <img class="avatar"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdnXEvHjAje9CmusIJwSL3F2RGvflOpJ7Q6mYahkUZfjk28I-lJ33z3s0dGuegflq11IU&usqp=CAU"
+        alt="Avatar">
+
+    <!-- Text Decoration -->
+    <h1>This is a Heading 1</h1>
+    <h2>This is smaller Heading 2</h2>
+    <p class="small-text">This is a small and colored text</p>
+    <p class="greytext">This is grey text</p>
+    <p class="centertext">This is a centered text</p>
+
+    <!-- Badge -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <div class="notification-cont">
+        <a class="notification">
+            <span><i class="fas fa-envelope"></i></span>
+            <span class="badge">15</span>
+        </a>
+    </div>
+
+    <div class="notification-cont">
+        <a class="notification">
+            <span><i class="fas fa-bell"></i></span>
+            <span class="badge">3</span>
+        </a>
+    </div>
+
+    <!-- Input Field -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-4">
+            <label for="validationCustom01" class="form-label">First name</label>
+            <input type="text" class="form-control" id="validationCustom01" value="abc" required>
+        </div>
+        <div class="col-md-4">
+            <label for="validationCustom02" class="form-label">Last name</label>
+            <input type="text" class="form-control" id="validationCustom02" value="xyz" required>
+        </div>
+        <div class="col-md-4">
+            <label for="validationCustomUsername" class="form-label">Username</label>
+            <div class="input-group has-validation">
+                <span class="input-group-text" id="inputGroupPrepend">@</span>
+                <input type="text" class="form-control" id="validationCustomUsername"
+                    aria-describedby="inputGroupPrepend" required>
+                <div class="invalid-feedback"> Please choose a username.</div>
+            </div>
+        </div>
+        <div class="col-12 submit">
+            <button class="btn btn-primary" type="submit">Submit</button>
+        </div>
+
+        <script>
+            (function () {
+                'use strict'
+
+
+                var forms = document.querySelectorAll('.needs-validation')
+
+
+                Array.prototype.slice.call(forms)
+                    .forEach(function (form) {
+                        form.addEventListener('submit', function (event) {
+                            if (!form.checkValidity()) {
+                                event.preventDefault()
+                                event.stopPropagation()
+                            }
+
+                            form.classList.add('was-validated')
+                        }, false)
+                    })
+            })()
+        </script>
+
+        <!-- Buttons -->
+        <button class="btn btn-primary pribtn">Primary</button>
+        <button class="btn btn-success succbtn">Success</button>
+        <button class="btn btn-info infobtn">Info</button>
+        <button class="btn btn-warning warningbtn">Warning</button>
+        <button class="btn btn-danger dangbtn">Danger</button>
+
+
+
+
+</body>
+
+</html>
