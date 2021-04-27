@@ -107,140 +107,134 @@ nav ul li.btn.hide i:before {
 
 /* Rating */
 .rating {
-  
-    color:#fddb3a
-     font-size:80px;
-   }
-   
-   .rating:hover{
-       color:#fddb3a
-      }
+  color: #fddb3a;
+  font-size: 80px;
+}
+
+.rating:hover {
+  color: #fddb3a;
+}
 
 /* Grid System */
-.grid{
-    display: grid;
-    grid-gap: 50px 100px;
-    grid-template-columns: auto auto auto;
-    background-color: #9e9d89;
-    padding: 10px;
-  }
-  
-  .gcontent {
-    background-color:#ccffbd;
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-  }
+.grid {
+  display: grid;
+  grid-gap: 50px 100px;
+  grid-template-columns: auto auto auto;
+  background-color: #9e9d89;
+  padding: 10px;
+}
+
+.gcontent {
+  background-color: #ccffbd;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
 
 /* Avatar */
 .avatar {
-  
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    padding:15px;
-  }
-  
-  .avatar:hover {
-    -ms-transform: scale(1.5); 
-    -webkit-transform: scale(1.5); 
-    transform: scale(1.2); 
-  }
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  padding: 15px;
+}
 
-  /* Text Decoration */
-  h2{
-    text-align:right
-  }
-  
-  .small-text{
-    color:blue;
-   font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .greytext{
-    color:grey;
-     font-size:35px;
-   font-family: monospace;
-  }
-  
-  .centertext{
-    text-align:center;
-    font-size:50px;
-  }
+.avatar:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.2);
+}
 
-  /* Badge */
-  .notification-cont{
-    padding-top:15px;
-    padding-left:10px;
-  }
-  .notification {
-    background-color: #dbf6e9;
-    color: black;
-    text-decoration: none;
-    padding: 20px 25px;
-    position: relative;
-    display: inline-block;
-    border-radius: 60px;
-  }
-  
-  .notification .badge {
-    position: absolute;
-    top: -10px;
-    right: -10px;
-    padding: 5px 10px;
-    border-radius: 55%;
-    background: black;
-    color: white;
-  }
+/* Text Decoration */
+h2 {
+  text-align: right;
+}
 
-  /* Input Field */
-  .submit{
-    padding-top:15px;
-    text-align:center;
-  }
+.small-text {
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+.greytext {
+  color: grey;
+  font-size: 35px;
+  font-family: monospace;
+}
 
-  /* Buttons */
-  .pribtn{
-    background-color:blue;
-    width:100px;
-    border-radius:10px;
-    font-size:100%;
-    padding:0.5rem;
-  }
-  
-  .succbtn{
-     background-color:#85ef47;
-    width:100px;
-    border-radius:10px;
-    font-size:100%;
-    padding:0.5rem;
-  }
-  
-  .infobtn{
-    background-color:#9ddfd3;
-    width:100px;
-    border-radius:10px;
-    font-size:100%;
-    padding:0.5rem;
-  }
-  
-  .warningbtn{
-     background-color:#fed049;
-    width:100px;
-    border-radius:10px;
-    font-size:100%;
-    padding:0.5rem;
-  }
-  
-  .dangbtn{
-     background-color:red;
-    width:100px;
-    border-radius:10px;
-    font-size:100%;
-    padding:0.5rem;
-  }
-  
-  
-  
+.centertext {
+  text-align: center;
+  font-size: 50px;
+}
+
+/* Badge */
+.notification-cont {
+  padding-top: 15px;
+  padding-left: 10px;
+}
+.notification {
+  background-color: #dbf6e9;
+  color: black;
+  text-decoration: none;
+  padding: 20px 25px;
+  position: relative;
+  display: inline-block;
+  border-radius: 60px;
+}
+
+.notification .badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 5px 10px;
+  border-radius: 55%;
+  background: black;
+  color: white;
+}
+
+/* Input Field */
+.submit {
+  padding-top: 15px;
+  text-align: center;
+}
+
+/* Buttons */
+.pribtn {
+  background-color: blue;
+  width: 100px;
+  border-radius: 10px;
+  font-size: 100%;
+  padding: 0.5rem;
+}
+
+.succbtn {
+  background-color: #85ef47;
+  width: 100px;
+  border-radius: 10px;
+  font-size: 100%;
+  padding: 0.5rem;
+}
+
+.infobtn {
+  background-color: #9ddfd3;
+  width: 100px;
+  border-radius: 10px;
+  font-size: 100%;
+  padding: 0.5rem;
+}
+
+.warningbtn {
+  background-color: #fed049;
+  width: 100px;
+  border-radius: 10px;
+  font-size: 100%;
+  padding: 0.5rem;
+}
+
+.dangbtn {
+  background-color: red;
+  width: 100px;
+  border-radius: 10px;
+  font-size: 100%;
+  padding: 0.5rem;
+}
